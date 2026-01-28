@@ -777,4 +777,5 @@ async def start(ctx):
         await ctx.send("⚠️ คำสั่งนี้ใช้งานได้เฉพาะในแชทส่วนตัวเท่านั้น")
 
 if __name__ == "__main__":
-    bot.run(os.environ.get('MTQ2MDI5NjU2NjMzNzQzNzk2Mw.G5QoVe.cnS25NQGSwWab3l4BaNXIQdBeDlLjfzNi5a_SM'))
+    keep_alive()
+    bot.run('MTQ2MDI5NjU2NjMzNzQzNzk2Mw.G5QoVe.cnS25NQGSwWab3l4BaNXIQdBeDlLjfzNi5a_SM')
